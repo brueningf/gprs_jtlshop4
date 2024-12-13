@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<jtlshop3plugin>
+	<Name>GPRS JTL Shop 4</Name>
+	<Description>Produktsicherheitsverordnung</Description>
+	<Author>Frederic B.</Author>
+	<URL>https://fredesk.com</URL>
+	<PluginID>gprs_jtlshop4</PluginID>
+	<XMLVersion>100</XMLVersion>
+	<Shop4Version>405</Shop4Version>
+	<Install>
+		<Version nr="100">
+			<CreateDate>2024-12-12</CreateDate>
+		</Version>
+		<Hooks>
+			<Hook id="1">artikel_page.php</Hook>
+			<Hook id="140">smarty_outputfilter.php</Hook>
+		</Hooks>
+	</Install>
+</jtlshop3plugin>
