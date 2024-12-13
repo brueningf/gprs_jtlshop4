@@ -3,9 +3,9 @@
 
 class GPSR
 {
-    private array $data = [];
+    private $data = [];
 
-    private array $fields = [
+    private $fields = [
         'name',
         'street',
         'housenumber',
